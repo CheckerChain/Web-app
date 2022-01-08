@@ -26,8 +26,8 @@ const HostingModern = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Hosting Modern | A react next landing page</title>
-        <meta name="Description" content="React next landing page" />
+        <title>CheckerChain | Decentralized Review Aggregator Platform</title>
+        <meta name="Description" content="CheckerChain is a decentralized review aggregator platform that runs on $CHECKR token." />
         <meta name="theme-color" content="#362C8B" />
         <link
           rel="stylesheet"

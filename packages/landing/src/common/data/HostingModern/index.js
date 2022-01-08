@@ -85,7 +85,7 @@ export const accordions = [
     expanded: true,
     title: 'Submit posts for reviews',
     desc:
-      'Connecting Maiar Wallet, anyone can submit a post for getting reviews using $CHKR tokens. Posts can be about products, apps, books, movies and events.',
+      'Connecting Maiar Wallet, anyone can submit a post for getting reviews using $CHECKR tokens. Posts can be about products, apps, books, movies and events.',
   },
   {
     id: 2,
@@ -97,9 +97,9 @@ export const accordions = [
   {
     id: 3,
     expanded: false,
-    title: "$CHKR token as reward for reaching review consensus",
+    title: "$CHECKR token as reward for reaching review consensus",
     desc:
-      'Based on review metrics, new $CHRK tokens are rewarded based on Post Score and Checker Score.',
+      'Based on review metrics, new $CHECRK tokens are rewarded based on Post Score and Checker Score.',
   },
 ];
 

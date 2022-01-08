@@ -45,7 +45,7 @@ const CustomerSupport = () => {
               <List
                 className="listItem"
                 icon={<Icon icon={checkmarkCircled} size="18" />}
-                text="Influcers Rewards"
+                text="Influencers Rewards"
               />
             </IconList>
           </Content>

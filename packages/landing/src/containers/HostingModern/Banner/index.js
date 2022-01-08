@@ -32,7 +32,7 @@ const Banner = () => {
         <ContentWrapper>
           <BannerContent>
             <Heading as="h1" content="A Decentralized Review Aggregator Platform." />
-            <Text content="Submit Products, Apps, Books, Movies, & Events for decentralized reviews. Earn $CHECKR token on merits of review consensus. 100% revenue shared." />
+            <Text content="Launching something new or looking for authentic user feedbacks? Submit Products, Apps, Books, Movies, & Events for decentralized feedbacks. Earn $CHECKR tokens for posting or reviewing or promoting." />
             <Link href="https://elrond.com">
               <a target="_blank" className="joinButton">
                 <Button title="Powered by Elrond" />

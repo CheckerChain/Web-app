@@ -30,7 +30,7 @@ const CustomerSupport = () => {
               <List
                 className="listItem"
                 icon={<Icon icon={checkmarkCircled} size="18" />}
-                text="Rewarding Ecoystem"
+                text="Rewarding Ecosystem"
               />
               <List
                 className="listItem"

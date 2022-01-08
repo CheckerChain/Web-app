@@ -1,0 +1,38 @@
+{
+  "name": "checkerchain",
+  "description": "CheckerChain is a decentralized review aggregator platform.",
+  "version": "10.0.1",
+  "private": true,
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2"
+  },
+  "workspaces": [
+    "packages/landing",
+    "packages/landing-gatsby"
+  ],
+  "scripts": {
+    "clean": "yarn workspaces run rimraf \"{.next,node_modules,.cache,out,dist}\" && rimraf node_modules",
+    "next-dev": "yarn workspace @superprops/next run dev",
+    "next-build": "yarn workspace @superprops/next run build",
+    "next-start": "yarn workspace @superprops/next run start",
+    "next-export": "yarn workspace @superprops/next run export",
+    "gatsby-dev": "yarn workspace @superprops/gatsby run dev",
+    "gatsby-build": "yarn workspace @superprops/gatsby run build",
+    "gatsby-serve": "yarn workspace @superprops/gatsby run start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,css}": [
+      "prettier --trailing-comma es5 --single-quote --write"
+    ]
+  },
+  "dependencies": {}
+}

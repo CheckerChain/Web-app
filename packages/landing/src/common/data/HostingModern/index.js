@@ -136,7 +136,7 @@ export const features = [
     icon: featureIcon4,
     title: 'Review to Earn',
     desc:
-      'Get rewards on $CHKR tokens for all posts and reviews. Highly rewarding model.',
+      'Get rewards on $CHECKR tokens for all posts and reviews. Highly rewarding model.',
   },
   {
     id: 5,
@@ -270,7 +270,7 @@ export const newsFeed = [
     image: news1,
     title: 'An introduction to CheckerChain',
     excerpt:
-      'Learn what core team has to say about CherChain ecosystem about decentralized review and survey industry.',
+      'Learn what core team has to say about CheckerChain ecosystem about decentralized review and survey industry.',
     link: '#',
   },
   {

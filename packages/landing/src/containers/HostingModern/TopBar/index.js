@@ -27,8 +27,8 @@ const TopBar = () => {
         <TopbarInner>
           <p className="caption">
             <Image src={gift?.src} alt="gift icon" />
-            Launching soon. Get $CHECKR token for following us in twitter & telegram
-            <strong className="tlds"> 100 $CHECKR Token </strong>
+            Mainnet $CHECKR token is "CHECKR-60108b".  Follow us in twitter & telegram
+            <strong className="tlds">Airdropping 100 $CHECKR Token </strong>
           </p>
 
           <Link href="https://docs.google.com/presentation/u/2/d/1UaDXyh2_506mj55pOHcYeBhgMLBuQKeS_HjnJe1bWxc/edit?usp=sharing">

@@ -47,10 +47,10 @@ const TopBar = () => {
           <Wrapper>
             <p className="caption">
               <Image src={gift?.src} alt="gift icon" />
-              <span>Launching soon. Get $CHECKR token for following us in twitter & telegram</span>
+              <span>Mainnet $CHECKR token is "CHECKR-60108b".  Follow us in twitter & telegram</span>
             </p>
             <p>
-              <strong className="tlds">100 $CHECKR Token</strong>
+              <strong className="tlds">Airdropping 100 $CHECKR Token </strong>
 
               <Link href="https://docs.google.com/presentation/u/2/d/1UaDXyh2_506mj55pOHcYeBhgMLBuQKeS_HjnJe1bWxc/edit?usp=sharing">
                 <a target="_blank" className="dealsLink">

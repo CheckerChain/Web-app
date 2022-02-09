@@ -31,7 +31,7 @@ const TopBar = () => {
             <strong className="tlds">Airdropping 100 $CHECKR Token </strong>
           </p>
 
-          <Link href="https://docs.google.com/presentation/u/2/d/1UaDXyh2_506mj55pOHcYeBhgMLBuQKeS_HjnJe1bWxc/edit?usp=sharing">
+          <Link href="https://docs.checkerchain.com/whitepaper/checkerchain-lightpaper">
             <a target="_blank" className="dealsLink">
               <span>Lightpaper</span>
               <Icon className="close" icon={arrowRight} size={14} />
@@ -52,7 +52,7 @@ const TopBar = () => {
             <p>
               <strong className="tlds">Airdropping 100 $CHECKR Token </strong>
 
-              <Link href="https://docs.google.com/presentation/u/2/d/1UaDXyh2_506mj55pOHcYeBhgMLBuQKeS_HjnJe1bWxc/edit?usp=sharing">
+              <Link href="https://docs.checkerchain.com/whitepaper/checkerchain-lightpaper">
                 <a target="_blank" className="dealsLink">
                   <span>Lightpaper</span>
                   <Icon className="close" icon={arrowRight} size={14} />

@@ -46,7 +46,7 @@ const Navbar = () => {
             />
             <Link href="https://app.checkerchain.com">
               <a className="joinButton">
-                <Button title="Launch App" />
+                <Button title="Launch Presale" />
               </a>
             </Link>
           </PrimaryNav>

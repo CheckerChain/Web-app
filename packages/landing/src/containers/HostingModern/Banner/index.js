@@ -35,7 +35,7 @@ const Banner = () => {
             <Text content="Launching something new or looking for authentic user feedbacks? Submit Products, Apps, Books, Movies, & Events for decentralized feedbacks. Earn $CHECKR tokens for posting or reviewing or promoting." />
             <Link href="https://app.checkerchain.com">
               <a target="_blank" className="joinButton">
-                <Button title="Launch App" />
+                <Button title="Launch Presale" />
               </a>
             </Link>
           </BannerContent>

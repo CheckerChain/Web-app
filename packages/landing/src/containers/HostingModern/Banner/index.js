@@ -17,7 +17,7 @@ import BannerSection, {
   BannerImage,
 } from './banner.style';
 
-import illustration from 'common/assets/image/hostingModern/illustration.png';
+import illustration from 'common/assets/image/hostingModern/presale.jpeg';
 
 const options = [
   { label: '.COM', value: 'dot-com' },
@@ -33,9 +33,9 @@ const Banner = () => {
           <BannerContent>
             <Heading as="h1" content="A Decentralized Review Aggregator Platform." />
             <Text content="Launching something new or looking for authentic user feedbacks? Submit Products, Apps, Books, Movies, & Events for decentralized feedbacks. Earn $CHECKR tokens for posting or reviewing or promoting." />
-            <Link href="https://elrond.com">
+            <Link href="https://app.checkerchain.com">
               <a target="_blank" className="joinButton">
-                <Button title="Powered by Elrond" />
+                <Button title="Launch App" />
               </a>
             </Link>
           </BannerContent>

@@ -39,7 +39,7 @@ const HostingModern = () => {
       <GlobalStyle />
 
       <ContentWrapper>
-        <TopBar />
+        {/* <TopBar /> */}
         <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
           <DrawerProvider>
             <Navbar />

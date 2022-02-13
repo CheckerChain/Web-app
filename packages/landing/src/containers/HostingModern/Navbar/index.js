@@ -44,9 +44,9 @@ const Navbar = () => {
               menuItems={MenuItems}
               offset={-70}
             />
-            <Link href="#">
+            <Link href="https://app.checkerchain.com">
               <a className="joinButton">
-                <Button title="Launch App (soon)" />
+                <Button title="Launch App" />
               </a>
             </Link>
           </PrimaryNav>
@@ -92,8 +92,8 @@ const Navbar = () => {
             </li>
           ))}
         </Scrollspy>
-        <Link href="#">
-          <a className="joinButton">Launch App (soon)</a>
+        <Link href="https://app.checkerchain.com">
+          <a className="joinButton">Launch App</a>
         </Link>
       </MobileNav>
     </HeaderWrapper>

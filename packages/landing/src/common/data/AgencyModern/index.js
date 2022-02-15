@@ -196,23 +196,37 @@ const data = {
   aboutUs: [
     {
       id: 3,
-      title: 'What is CheckerChain?',
+      title: 'Teams & Partnerships',
+      link: 'https://docs.checkerchain.com/what-is-checkerchain/team-and-partnerships'
+    },
+    {
+      id: 4,
+      title: 'White Paper',
+      link: 'https://docs.checkerchain.com/whitepaper/checkerchain-whitepaper'
     },
   ],
   ourInformation: [
     {
       id: 3,
-      title: 'Terms & Conditions',
+      title: 'Roadmap',
+      link:'https://docs.checkerchain.com/specials/roadmap'
+    },
+    {
+      id: 4,
+      title: 'Pre-Sale Info',
+      link:'https://docs.checkerchain.com/guidelines/pre-sale-of-checkr-token'
     },
   ],
   myAccount: [
     {
       id: 1,
-      title: 'Press inquiries',
+      title: 'Documentation',
+      link:'https://docs.checkerchain.com/'
     },
     {
       id: 2,
-      title: 'Social media',
+      title: 'Resources',
+      link:'https://docs.checkerchain.com/what-is-checkerchain/resources'
     },
   ],
   social: [
@@ -220,11 +234,13 @@ const data = {
       id: 2,
       icon: twitter,
       title: 'Twitter',
+      link: 'https://twitter.com/checker_chain'
     },
     {
       id: 3,
       icon: github,
       title: 'Github',
+      link: 'https://github.com/CheckerChain'
     },
   ],
 };

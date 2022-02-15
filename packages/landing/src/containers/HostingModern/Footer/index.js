@@ -41,7 +41,7 @@ const Footer = () => {
               <Heading as="h4" content="About Us" />
               <Nav>
                 {data.aboutUs.map((item) => (
-                  <Link key={item.id} href="#">
+                  <Link key={item.id} href={item.link}>
                     {item.title}
                   </Link>
                 ))}
@@ -54,7 +54,7 @@ const Footer = () => {
               <Heading as="h4" content="Information" />
               <Nav>
                 {data.ourInformation.map((item) => (
-                  <Link key={item.id} href="#">
+                  <Link key={item.id} target="_blank" href={item.link}>
                     {item.title}
                   </Link>
                 ))}
@@ -64,10 +64,10 @@ const Footer = () => {
 
           <FooterWidget>
             <Fade up delay={400}>
-              <Heading as="h4" content="Press & Media" />
+              <Heading as="h4" content="Important Links" />
               <Nav>
                 {data.myAccount.map((item) => (
-                  <Link key={item.id} href="#">
+                  <Link key={item.id} target="_blank" href={item.link}>
                     {item.title}
                   </Link>
                 ))}
@@ -80,7 +80,7 @@ const Footer = () => {
               <Heading as="h4" content="Connect" />
               <Nav>
                 {data.social.map((item) => (
-                  <Link key={item.id} target="_blank" href="https://twitter.com/checker_chain">
+                  <Link key={item.id} target="_blank" href={item.link}>
                     <Image src={item.icon?.src} alt="Facebook" />
                     {item.title}
                   </Link>

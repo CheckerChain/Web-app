@@ -286,7 +286,7 @@ export const newsFeed = [
     image: news3,
     title: 'Tokenomics & Rewards of CheckerChain',
     excerpt:
-      'The max supply of $CHECKR token is 1,000,000,000 and all revenues collected in the platform are shared with ecosystem participants.',
+      'The max supply of $CHECKR token is 2,100,000,000 and all revenues collected in the platform are shared with ecosystem participants.',
     link: '#',
   },
 ];

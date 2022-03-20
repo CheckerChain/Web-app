@@ -46,7 +46,7 @@ const Navbar = () => {
             />
             <Link href="https://app.checkerchain.com">
               <a className="joinButton">
-                <Button title="Launch Presale" />
+                <Button title="Launch dApp" />
               </a>
             </Link>
           </PrimaryNav>
@@ -93,7 +93,7 @@ const Navbar = () => {
           ))}
         </Scrollspy>
         <Link href="https://app.checkerchain.com">
-          <a className="joinButton">Launch App</a>
+          <a className="joinButton">Launch dApp</a>
         </Link>
       </MobileNav>
     </HeaderWrapper>
